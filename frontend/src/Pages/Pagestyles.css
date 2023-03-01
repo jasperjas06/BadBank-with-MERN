@@ -1,0 +1,186 @@
+
+.hom_btn{
+/* padding: 1%; */
+/* float: right;
+margin-top: 1%; */
+
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
+.form_first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(4, 12, 20, 0.396); */
+    /* background-image: url("https://cdn.dribbble.com/users/68398/screenshots/3811447/cocktail_achos_v2.gif"); */
+    background-image: url("https://i.pinimg.com/originals/f8/a0/c7/f8a0c7af409ffa269a677ce91492732f.gif");
+
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 20px;
+    padding: 50px;
+    width: 50%;
+    /* margin-top: 1%; */
+}
+
+.input-field{
+    padding: 1%;
+    align-items: flex-end;
+}
+.input-field label{
+    color: white;
+    font-size:medium;
+   float: left;
+}
+.input-field input{
+    color: #f4eded;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color:rgba(3, 3, 3, 0);
+}
+
+
+.form_first2{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(4, 12, 20, 0.396); */
+    /* background-image: url("https://cdn.dribbble.com/users/68398/screenshots/3811447/cocktail_achos_v2.gif"); */
+    background-image: url("https://i.pinimg.com/originals/f8/a0/c7/f8a0c7af409ffa269a677ce91492732f.gif");
+    background-size: cover;
+    background-repeat:no-repeat;
+    border-radius: 20px;
+    padding: 90px;
+    width: 45%;
+    margin-top: 2%;
+}
+
+.product-details{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(4, 12, 20, 0.396); */
+    /* background-image: url("https://cdn.dribbble.com/users/1657566/screenshots/12131401/media/1d1eb538136fa73adb5f699602c0e5db.gif"); */
+    /* background-image: url("https://i.gifer.com/O7Bb.gif"); */
+    background-image: url("https://i.pinimg.com/originals/f8/a0/c7/f8a0c7af409ffa269a677ce91492732f.gif");
+    background-size: cover;
+    background-repeat:no-repeat;
+    padding: 80px;
+    border-radius: 20px;
+    width: 50%;
+}
+.pro-file{
+    color: rgb(242, 242, 238);
+}
+.color{
+    color: rgb(218, 201, 13);
+    font-size: larger;
+}
+.Deposite{
+      /* display: flex; */
+      align-items: center;
+      justify-content: center;
+      /* background-color: rgba(4, 12, 20, 0.396); */
+      /* background-image: url("https://cdn.dribbble.com/users/1657566/screenshots/12131401/media/1d1eb538136fa73adb5f699602c0e5db.gif"); */
+      /* background-image: url("https://i.gifer.com/O7Bb.gif"); */
+      background-image: url("https://i.pinimg.com/originals/f8/a0/c7/f8a0c7af409ffa269a677ce91492732f.gif");
+      padding: 80px;
+      background-size: cover;
+      background-repeat:no-repeat;
+      border-radius: 20px;
+  
+      width: 50%;
+
+}
+
+.feed{
+    float: right;
+    width: 30%;
+    background-color: white;
+    height: 560px;
+    margin-right: 10px;
+}
+.hom_image{
+    width: 40%;
+    margin-top: 16px;
+    /* border-radius: 10%; */
+}
+
+.footer{
+    background-image: linear-gradient(to right, rgba(212, 210, 210, 0.122), rgba(7, 7, 7, 0.193));
+   position: fixed;
+    align-items: center;
+    justify-content: center;
+   left: 0;
+   bottom: 0;
+   height: 100px;
+   width: 100%;
+   background-color: rgb(250, 247, 247);
+   color: rgb(13, 11, 11);
+   text-align: center; 
+}
+.icon-foot{
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.balance{
+    color: yellow;
+}
+
